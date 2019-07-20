@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 }
 body{
-	widows: 375px;
+	width: 375px;
+	padding-bottom: 50px;
 }
 .header{
 	width:375px;
@@ -196,7 +197,7 @@ p{
 	display: flex;
 	justify-content: space-between;
 	width: 327px;
-	height: 78px;
+	height: 48px;
 	padding: 15px 0;
 	margin: 0 auto;
 	border-top: 1px solid #eee;
@@ -208,4 +209,133 @@ p{
 .tesefuwu .header .more{
 	font-size: 12px;
 	color: #999;;
+}
+.fuwuList{
+	width: 351px;
+	height: 378px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap:wrap;
+	padding: 0px 12px;
+}
+.fuwuItem{
+	width: 78.5px;
+	height: 115px;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 8px 15px;
+	background: hsla(234,9%,79%,.15);
+}
+.fuwuItem .icon{
+	background-image: url(../img/fuwu1.webp);
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+.fuwuItem .icon2{
+	background-image: url(../img/fuwu2.webp);
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+.fuwuItem .icon3{
+	background-image: url(../img/fuwu3.webp);
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+.fuwuItem .icon4{
+	background-image: url(../img/fuwu4.webp);
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+.fuwuItem h3{
+	font-size: 13px;
+}
+.fuwuItem p{
+	color: #4f5264;
+}
+.wybtn{
+	display: block;
+	width: 327px;
+	height: 62px;
+	background-image: url(../img/weiyibtn.png);
+	background-size: 100% 100%;
+	margin: 5px auto;
+}
+.towbtn{
+	width: 375px;
+	height: 89px;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+	padding: 0px 12px;
+}
+.towbtn a{
+	width: 168.5px;
+	height: 89px;
+	background-size: 100% 100%;
+}
+.towbtn a:nth-child(1){
+	background-image: url(../img/jkBtn.png);
+}
+.towbtn a:nth-child(2){
+	background-image: url(../img/yltBtn.png);
+}
+.swiper{
+	width: 375px;
+	height: 100px;
+	padding: 0 12px;
+	margin: 20px 0px;
+}
+.swiper img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	width: 375px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.8;
+}
+.footer .itemIcon{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer .itemIcon .icon{
+	width: 25px;
+	height: 22px;
+	background-image: url(../img/footer-sprite.png);
+	background-size: 100%;
+	margin: 5px;
+}
+.footer .itemIcon .icon1{
+	background-position: 0px 0px;
+}
+.footer .itemIcon .icon2{
+	background-position: 2px 96px;
+}
+.footer .itemIcon .icon3{
+	background-position: 1px 72px;
+}
+.footer .itemIcon .icon4{
+	background-position: 0px 48px;
+}
+.footer .itemIcon .icon5{
+	background-position: 1px 25px;
+}
+.footer .itemIcon .text{
+	font-size: 12px;
+	color: gray;
 }
